@@ -1,0 +1,30 @@
+# Participant-level data and derived outputs must never be committed
+# (A4, ADNI and PREVENT-AD data-use agreements).
+data/
+outputs/
+verify/
+
+*.csv
+*.tsv
+*.rds
+*.RDS
+*.rda
+*.RData
+*.Rdata
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sav
+*.dta
+*.sas7bdat
+
+# Allow the display-item manifest (no data; used by R/config.R to find the repo root)
+!MANIFEST.csv
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+Rplots.pdf
